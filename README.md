@@ -12,18 +12,20 @@ b). cd to /home/${BlockChain}/ServerNode/
             cd ${BlockChain}/ServerNode/
             ./ServerRun
     The above runs a Local Server on the node which maintains the list of files added to blockchain
-    
+ 
+ The best thing to initiate the following is to grab another PC (although the same can be done with server node also) and follow the following steps.
+ 
  c). cd to /home/${BlockChain/LocalServerSendFile/
  
             cd ${BlockChain}/LocalServerSendFile/
             ./LocalServerRun
-     The above acts as a outgoing port which can be used by other nodes for fetching the blocks.
+     The above acts as an outgoing port which can be used by other nodes for fetching the blocks.
      
  d). cd to /home/${BlockChain}/encrypt/
  
             cd ${BlockChain}/encrypt/
             ./encrypt {IP of the Server node}          
-      Pass the IP of the server node which running the encrypt command at local nodes. 
+      Pass the IP of the server node (First PC)
       
 You can also find a few encrypted blocks in encryption/ folder with this download.
 
