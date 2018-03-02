@@ -10,7 +10,7 @@ a). Download/extract the zip file or clone it to your /home directory
 b). cd to /home/${BlockChain}/ServerNode/
 
             cd ${BlockChain}/ServerNode/
-            ./ServerRun
+            sh ./ServerRun.sh
     The above runs a Local Server on the node which maintains the list of files added to blockchain
  
  The best thing to initiate the following is to grab another PC (although the same can be done with server node also) and follow the following steps.
