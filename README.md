@@ -15,13 +15,13 @@ b). cd to /home/${BlockChain}/ServerNode/
  
  The best thing to initiate the following is to grab another PC (although the same can be done with server node also) and follow the following steps.
  
- c). cd to /home/${BlockChain/LocalServerSendFile/
+ c). Open a new terminal and cd to /home/${BlockChain/LocalServerSendFile/
  
             cd ${BlockChain}/LocalServerSendFile/
             ./LocalServerSendFile
      The above acts as an outgoing port which can be used by other nodes for fetching the blocks.
      
- d). cd to /home/${BlockChain}/encrypt/
+ d). Open a new terminal and cd to /home/${BlockChain}/encrypt/
  
             cd ${BlockChain}/encrypt/
             ./encrypt {IP of the Server node}          
