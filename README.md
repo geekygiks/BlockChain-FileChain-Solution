@@ -18,7 +18,7 @@ b). cd to /home/${BlockChain}/ServerNode/
  c). cd to /home/${BlockChain/LocalServerSendFile/
  
             cd ${BlockChain}/LocalServerSendFile/
-            ./LocalServerRun
+            ./LocalServerSendFile
      The above acts as an outgoing port which can be used by other nodes for fetching the blocks.
      
  d). cd to /home/${BlockChain}/encrypt/
